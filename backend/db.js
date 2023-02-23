@@ -5,7 +5,7 @@ const connectToMongo = () =>
 {
     mongoose.connect(mongoURI,()=>
     {
-        console.log("Connected");
+        console.log("Connected...");
     })
 }
 
